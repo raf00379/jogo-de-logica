@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/Principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="FodeEinstein"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    tools:context=".MainActivity">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal|vertical"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="216dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="31dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="237dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TableLayout
+                        android:id="@+id/tableTeste"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:animationCache="true"
+                        android:background="@color/purple_200"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textEspaco"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:gravity="center_horizontal"
+                            android:isScrollContainer="true"
+                            android:text=" "
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textCor"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:gravity="right"
+                            android:isScrollContainer="true"
+                            android:text="Cor da Casa:"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textNacional"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:gravity="right"
+                            android:isScrollContainer="true"
+                            android:text="Nacionalidade:"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:gravity="right"
+                            android:isScrollContainer="true"
+                            android:text="Time:"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textBebida"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:gravity="right"
+                            android:isScrollContainer="true"
+                            android:text="Bebida:"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textAnimal"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:gravity="right"
+                            android:isScrollContainer="true"
+                            android:text="Animal:"
+                            android:textStyle="bold" />
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:id="@+id/tblspiner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:animationCache="true"
+                        android:background="#E1BBB8"
+                        android:orientation="horizontal">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center|top">
+
+                            <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:isScrollContainer="true"
+                                android:text="1ª Casa"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="2ª Casa"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="3ª Casa"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="4ª Casa"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="5ª Casa"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <View
+                            android:id="@+id/divider"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+
+                        <TableRow
+                            android:id="@+id/tablerow1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Spinner
+                                android:id="@+id/spinner1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="top"
+                                android:padding="5dip"
+                                android:textColor="#FF0000"
+                                android:textSize="12sp" />
+
+                            <Spinner
+                                android:id="@+id/spinner2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+                        </TableRow>
+
+                        <View
+                            android:id="@+id/divider1"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Spinner
+                                android:id="@+id/spinner6"
+                                android:layout_width="17dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+                        </TableRow>
+
+                        <View
+                            android:id="@+id/divider2"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Spinner
+                                android:id="@+id/spinner11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+
+                            <Spinner
+                                android:id="@+id/spinner13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner15"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+                        </TableRow>
+
+                        <View
+                            android:id="@+id/divider3"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Spinner
+                                android:id="@+id/spinner16"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner17"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner18"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner19"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner20"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                        </TableRow>
+
+                        <View
+                            android:id="@+id/divider4"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Spinner
+                                android:id="@+id/spinner21"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner22"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+
+                            <Spinner
+                                android:id="@+id/spinner23"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner24"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+
+                            <Spinner
+                                android:id="@+id/spinner25"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top" />
+                        </TableRow>
+
+                        <View
+                            android:id="@+id/divider5"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="?android:attr/listDivider" />
+                    </TableLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:backgroundTint="#101010"
+                app:itemHorizontalTranslationEnabled="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/teal_200"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Iniciar" />
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Confirmar" />
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Button" />
+
+                </LinearLayout>
+            </com.google.android.material.bottomnavigation.BottomNavigationView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

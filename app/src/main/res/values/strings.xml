@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Fode-Einstein</string>
+    <string-array name="Cor">
+        <item>Selecione</item>
+        <item>Amarelo</item>
+        <item>Marrom</item>
+        <item>Rosa</item>
+        <item>Verde</item>
+        <item>Branco</item>
+    </string-array>
+    <string-array name="Pais">
+        <item>Argentino</item>
+        <item>Brasileiro</item>
+        <item>Francês</item>
+        <item>Uruguaio</item>
+        <item>Inglês</item>
+    </string-array>
+    <string-array name="Time">
+        <item>São Paulo</item>
+        <item>Corinthians</item>
+        <item>Palmeiras</item>
+        <item>Santos</item>
+        <item>Vasco</item>
+    </string-array>
+    <string-array name="Bebiba">
+        <item>Água</item>
+        <item>Chá</item>
+        <item>Leite</item>
+        <item>Café</item>
+        <item>Guaraná</item>
+    </string-array>
+    <string-array name="Animal">
+        <item>Gato</item>
+        <item>Hamster</item>
+        <item>Pássaro</item>
+        <item>Peixe</item>
+        <item>Cachorro</item>
+    </string-array>
+    <string-array name="Descricao">
+        <item>Temos cinco casas lado a lado de cinco cores diferentes. Em cada casa mora uma pessoa de diferente nacionalidade. Cada
+        uma destas pessoas bebe uma bebida, torce para um clube de futebol, e tem um certo animal de estimação. Nenhuma delas
+        tem o mesmo animal, torce para o mesmo time ou bebe a mesma bebida.
+        Sabendo que:
+        1..  O Argentino vive na casa rosada
+        2..  O Brasileiro tem cachorros como animais de estimação
+        3..  O Uruguaio vive na primeira casa
+        4..  O Francês torce para o Santos
+        5..  O Inglês bebe chá
+        6..  O Uruguaio vive ao lado da casa marrom
+        7..  O dono da casa amarela torce para o São Paulo
+        8..  O dono da casa verde bebe café
+        9..  O homem que vive na casa do centro bebe leite
+        10.. O homem que torce para o Corinthians vive ao lado do que tem gatos
+        11.. O homem que cria hamsters vive ao lado do que torce para o São Paulo
+        12.. O homem que torce para o Vasco bebe guaraná
+        13.. O homem que torce para o Corinthians é vizinho do que bebe água
+        14.. O homem que torce para o Palmeiras cria pássaros
+        15.. A casa verde é vizinha e fica à esquerda da casa branca
+        Quem tem um PEIXE como animal de estimação?
+        </item>
+
+    </string-array>
+
+</resources>
